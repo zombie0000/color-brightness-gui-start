@@ -14,5 +14,5 @@ function btnClicked() {
 
   // Output
   document.getElementById("output").innerHTML = brightness.toFixed(0);
-  document.body.style.backgroundColor = `rgb(${R}, %{G}, %{B})`;
+  document.body.style.backgroundColor = `rgb(${R}, ${G}, ${B})`;
 }
